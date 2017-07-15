@@ -32,9 +32,9 @@ function main() {
     for (var x = 0; x < 6; x++) {
         for (var y = 0; y < 6; y++) {
             if (x + 2 < 6 && y + 2 < 6) {
-                var firstLine = arr[x][y] + arr[x][y+1] + arr[x][y+2]
+                var firstLine = arr[x][y] + arr[x][y+1] + arr[x][y+2];
                 var secondLine = arr[x+1][y+1];
-                var thirdLine = arr[x+2][y] + arr[x+2][y+1] + arr[x+2][y+2]
+                var thirdLine = arr[x+2][y] + arr[x+2][y+1] + arr[x+2][y+2];
                 sums.push(parseInt(firstLine) + parseInt(secondLine) + parseInt(thirdLine));    
             }
             
